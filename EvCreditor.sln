@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvCreditor.Adapters.Zaptec"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvCreditor.Abstractions", "EvCreditor.Abstractions\EvCreditor.Abstractions.csproj", "{23C5A1B2-9FBB-483B-A534-D35114C2D727}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvCreditor.Adapters.Billit", "EvCreditor.Adapters.Billit\EvCreditor.Adapters.Billit.csproj", "{C88B0D47-46DE-4440-AE7F-4244608C4DA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{23C5A1B2-9FBB-483B-A534-D35114C2D727}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C5A1B2-9FBB-483B-A534-D35114C2D727}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C5A1B2-9FBB-483B-A534-D35114C2D727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88B0D47-46DE-4440-AE7F-4244608C4DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88B0D47-46DE-4440-AE7F-4244608C4DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88B0D47-46DE-4440-AE7F-4244608C4DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88B0D47-46DE-4440-AE7F-4244608C4DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

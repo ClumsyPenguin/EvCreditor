@@ -8,13 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.13.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="client_secret.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EvCreditor.Abstractions\EvCreditor.Abstractions.csproj" />
     <ProjectReference Include="..\EvCreditor.Adapters.Zaptec\EvCreditor.Adapters.Zaptec.csproj" />
+    <ProjectReference Include="..\EvCreditor.Adapters.Billit\EvCreditor.Adapters.Billit.csproj" />
   </ItemGroup>
 
   <ItemGroup>
